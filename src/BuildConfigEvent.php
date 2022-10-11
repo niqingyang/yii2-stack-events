@@ -12,6 +12,11 @@ use yii\base\Event;
  */
 class BuildConfigEvent extends Event
 {
+    /**
+     * 事件名称
+     */
+    public const EVENT_NAME = 'buildApplicationConfig';
+
     public array $config;
 
     public function __construct($config = [])

@@ -16,6 +16,11 @@ use yii\base\InlineAction;
 class CreateActionEvent extends Event
 {
     /**
+     * 事件名称
+     */
+    public const EVENT_NAME = 'createAction';
+
+    /**
      * action id
      *
      * @var string
