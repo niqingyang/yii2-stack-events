@@ -4,6 +4,12 @@ namespace stack\events;
 
 use yii\base\Event;
 
+/**
+ * 创建 Controller 事件
+ *
+ * @author niqingyang<niqy@qq.com>
+ * @date 2022/10/11 23:14
+ */
 class CreateControllerEvent extends Event
 {
     /**
